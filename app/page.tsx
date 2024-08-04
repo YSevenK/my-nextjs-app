@@ -34,16 +34,16 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* 添加图片 */}
           <Image
-            src="/olympic.png"
+            src="/2.jpg"
             width={1000}
-            height={760}
-            className="block md:block"
+            height={650}
+            className="block md:block mt-[-43px]"
             alt="Screenshots of the dashboard project showing mobile version"
           />
         </div>
       </div>
       <div className="mt-5 flex h-8 shrink-0 items-center rounded-lg bg-cyan-300 p-4 md:h-20">
-        <p className={`${josefin_sans.className} text-sm text-gray-800 md:text-base text-indent-2rem`}>
+        <p className={`${josefin_sans.className} text-sm md:text-base text-indent-2rem`}>
           This is the first product I learned to develop independently, and I am learning and getting familiar with the model.It is currently under development.Thank you for your use and feedback, you can <strong>contact</strong> me by{'  '}<a href="mailto:ysevenk.k7@gmail.com" className="text-indigo-500">email</a> or {'  '}<a href="https://x.com/ysevenk_k7" className="text-indigo-500">X</a>
         </p>
       </div>
