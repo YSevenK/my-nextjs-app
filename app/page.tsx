@@ -2,11 +2,14 @@ import Link from 'next/link';
 import { inter, josefin_sans } from '@/app/ui/fonts';
 import Image from 'next/image';
 import OlympicLogo from '@/app/ui/logo';
-
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
+      {/* 分析组件 */}
+      <Analytics />
+
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-cyan-500 p-4 md:h-52">
         <OlympicLogo />
       </div>
